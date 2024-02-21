@@ -114,19 +114,19 @@ fun PremiumScreen(navController: NavController) {
 //                    modifier = Modifier.padding(vertical = 16.dp)
 //                )
 
-                Row () {
+                Row {
                     Column(
-                                modifier = Modifier.fillMaxSize(),
+                        modifier = Modifier.fillMaxSize(),
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
-                            Image(
-                                painter = painterResource(id = R.drawable.outdoor),
-                                contentDescription = null,
-                                modifier = Modifier
-                                    .size(150.dp)
-                                    .clip(MaterialTheme.shapes.large)
-                            )
+                        Image(
+                            painter = painterResource(id = R.drawable.outdoor),
+                            contentDescription = null,
+                            modifier = Modifier
+                                .size(150.dp)
+                                .clip(MaterialTheme.shapes.large)
+                        )
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(
                             text = "Navegación Outdoor",
@@ -202,7 +202,7 @@ fun PremiumScreen(navController: NavController) {
                                 textAlign = TextAlign.Center,
                             )
                             Text(
-                                text = "9,99",
+                                text = "9,99 €",
                                 fontSize = 30.sp, fontWeight = FontWeight.Black,
                                 textAlign = TextAlign.Center,
                             )
@@ -231,7 +231,7 @@ fun PremiumScreen(navController: NavController) {
                                 textAlign = TextAlign.Center,
                             )
                             Text(
-                                text = "4,99",
+                                text = "4,99 €",
                                 fontSize = 30.sp,
                                 fontWeight = FontWeight.Black,
                                 textAlign = TextAlign.Center,
